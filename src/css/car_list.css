@@ -1,0 +1,112 @@
+* {
+				margin: 0 auto;
+				padding: 0;
+			}
+			
+			.banner_next {
+				width: 1308px;
+			}
+			
+			.goods {
+				width: 1100px;
+				height: 500px;
+				/*border: 1px solid red;*/
+			}
+			
+			.top_lo {
+				width: 1100px;
+				height: 50px;
+				line-height: 50px;
+				/*border: 1px solid green;*/
+			}
+			
+			.as1_lo {
+				display: inline-block;
+				width: 250px;
+				height: 32px;
+			}
+			
+			.as2_lo {
+				display: inline-block;
+				width: 280px;
+				height: 32px;
+			}
+			
+			.as3_lo {
+				display: inline-block;
+				width: 150px;
+				height: 32px;
+			}
+			
+			.as4_lo {
+				display: inline-block;
+				width: 150px;
+				height: 32px;
+			}
+			
+			.as5_lo {
+				display: inline-block;
+				width: 170px;
+				height: 40px;
+				/*border: 1px solid green;*/
+			}
+			-----------第二行---------
+			
+			.goods-list {
+				width: 1100px;
+				height: 180px;
+			/*	*/border: 1px solid red;
+			}
+			
+			.img_lo {
+				display: inline-block;
+				width: 250px;
+				height: 180px;
+				/*border: 1px solid green;*/
+			}
+			
+			.title_lo {
+				display: inline-block;
+				width: 280px;
+				height: 180px;
+			}
+			
+			.ss1_lo {
+				display: inline-block;
+				width: 150px;
+				height: 32px;
+			}
+			
+			.ss2_lo {
+				display: inline-block;
+				width: 150px;
+				height: 32px;
+			}
+			
+			.ss3_lo {
+				display: inline-block;
+				width: 90px;
+				height: 32px;
+			}
+			
+			.ss4_lo {
+				display: inline-block;
+				width: 90px;
+				height: 32px;
+				/*border: 1px solid green;*/
+			}
+			
+			.list {
+				width: 1000px;
+				height: 1500px;
+				/*background: #ccc;*/
+			}
+			#middle{
+				
+				 margin-left: 130px;
+			}
+			#middle_bottom{
+				 width: 1100px;
+				 height: 300px;
+				 margin-left: 130px;
+			}

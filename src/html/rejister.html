@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			ul li {
+				list-style: none;
+			}
+			
+			body,
+			html {
+				font: 12px "微软雅黑";
+			}
+			/*--------------------nav------------------*/
+			
+			.nav {
+				width: 1308px;
+				height: 32px;
+				background: #f2f2f2;
+			}
+			
+			.nav_left {
+				float: left;
+				height: 32px;
+				line-height: 32px;
+				padding-left: 110px;
+			}
+			
+			.nav_right {
+				float: right;
+			}
+			
+			.nav_right li {
+				float: left;
+				position: relative;
+				height: 32px;
+				line-height: 32px;
+				padding: 0 15px;
+				/*border: 1px solid #CCCCCC;*/
+			}
+			
+			.nav_left a {
+				color: #ec3e7d;
+			}
+			
+			.nav_right {
+				padding-right: 125px;
+			}
+			/*********************插入小背景图标**********************/
+			
+			.nav_right .li1 #BG1 {
+				background: url(../img/enroll_1/2.jpg) no-repeat left center;
+				padding-left: 20px;
+			}
+			
+			.nav_right .li1 #BG2 {
+				background: url(../img/enroll_1/12.jpg) no-repeat right center;
+				padding-left: 10px;
+			}
+			
+			.nav_right .li2 #BG1 {
+				background: url(../img/enroll_1/3.jpg) no-repeat left center;
+				padding-left: 20px;
+			}
+			
+			.nav_right .li3 #BG1 {
+				background: url(../img/enroll_1/4.jpg) no-repeat left center;
+				padding-left: 20px;
+			}
+			/***********下拉菜单列表***************/
+			
+			.nav_right .li1 .cont {
+				display: none;
+			}
+			
+			.nav_right .cont {
+				width: 108px;
+				height: 130px;
+				position: absolute;
+				top: 32px;
+				right: 0;
+				background: #fff;
+			}
+			
+			.nav_right .cont li {
+				width: 90px;
+				height: 26px;
+				line-height: 26px;
+				border: none;
+				text-align: center;
+			}
+			/*---------------banner-----------------*/
+			
+			.banner {
+				width: 1199px;
+				height: 116px;
+				padding-left: 109px;
+				padding-top: 22px;
+			}
+			/*----------------------content------------------------*/
+			
+			.content {
+				width: 1308px;
+				height: 486px;
+				/*background: yellow;*/
+			}
+			
+			.content_left {
+				float: left;
+				width: 604px;
+				height: 403px;
+				padding-left: 106px;
+				padding-top: 83px;
+			}
+			
+			.content_right {
+				float: left;
+				width: 474px;
+				height: 456px;
+				padding-right: 74px;
+				padding-left: 50px;
+				padding-top: 30px;
+				/*background: red;*/
+			}
+			/*-----------------------bottom--------------------------*/
+			
+			.bottom {
+				width: 1308px;
+				height: 78px;
+				/*background: #00CCCC;*/
+			}
+			
+			.content_right p {
+				width: 350px;
+				height: 32px;
+				line-height: 32px;
+				/*border: 1px solid red;*/
+				margin-bottom: 30px;
+			}
+			
+			.content_right .name {
+				float: left;
+				font-size: 18px;
+			}
+			
+			.content_right .name2 {
+				float: right;
+				font-size: 14px;
+			}
+			
+			.content_right .name2 a {
+				text-decoration: none;
+				color: #EE3E7E;
+			}
+			
+			#text {
+				width: 350px;
+				height: 30px;
+				/*margin-bottom:10px ;*/
+			}
+			
+			#text2 {
+				width: 150px;
+				height: 30px;
+				/*margin-bottom:10px ;*/
+			}
+			
+			#pass {
+				width: 350px;
+				height: 30px;
+				/*margin-bottom:10px ;*/
+			}
+			
+			#remember_N {
+				font-size: 14px;
+				color: black;
+			}
+			
+			#remember_N a {
+				color: #ee3e7e;
+				text-decoration: none;
+			}
+			
+			#btn {
+				width: 250px;
+				height: 40px;
+				line-height: 40px;
+				text-align: center;
+				color: white;
+				font-size: 14px;
+				background: #EE3E7E;
+				margin-left: 50px;
+				margin-top: 40px;
+				margin-bottom: 30px;
+			}
+			
+			.sa_p {}
+			
+			#alert1,
+			#alert2,
+			#alert3,
+			#alert4 {
+				/*border: 1px solid red;*/
+				width: 250px;
+				height: 32px;
+				line-height: 28px;
+				font-size: 12px;
+				color: #EE3E7E;
+				padding-left: 18px;
+			}
+			
+			#VCode {
+				width: 100px;
+				height: 30px;
+				line-height: 30px;
+				background: white;
+				color: #999;
+				border: 1px solid #ccc;
+				display: inline-block;
+				text-align: center;
+				font-size: 16px;
+			}
+		</style>
+
+		<script src="../js/jquery-1.12.0.js"></script>
+		<script src="../js/comment.js"></script>
+		<script src="../js/base.js"></script>
+
+		<script>
+			window.onload = function() {
+				var oInput = document.getElementsByTagName("input");
+				var oAlert1 = document.getElementById("alert1");
+				var oAlert2 = document.getElementById("alert2");
+				var oAlert3 = document.getElementById("alert3");
+				var oAlert4 = document.getElementById("alert4");
+				var btn = document.getElementById("btn");
+
+				//0)用户名称只能包含数字、字母、下划线，长度不小于8位
+				oInput[0].onblur = function() {
+					var username = this.value;
+					var isTrue = /\w{8,}/.test(username);
+					if(isTrue) {
+						oAlert1.innerHTML = "用户名合法";
+					} else {
+						oAlert1.innerHTML = "用户名不合法";
+					}
+
+				}
+
+				//1)密码长度在6-20位之间 ,密码只能是数值，字母，下划线
+				oInput[1].onblur = function() {
+					var password = this.value;
+					var isTrue = /\w{6,20}/.test(password);
+					if(isTrue) {
+						oAlert2.innerHTML = "密码合法";
+					} else {
+						oAlert2.innerHTML = "密码不合法";
+					}
+
+				}
+
+				//2)密码长度在6-20位之间 ,密码只能是数值，字母，下划线
+				oInput[2].onblur = function() {
+					var password = oInput[1].value;
+
+					var passwords = this.value;
+
+					if(passwords == password) {
+						oAlert3.innerHTML = "密码相等";
+					} else {
+						oAlert3.innerHTML = "密码不相等";
+					}
+
+				}
+
+				//3)点击数字验证码，更换一个新的4位数字
+				var ospan = document.getElementById("VCode");
+				ospan.onclick = function() {
+					var str = "";
+					for(var i = 0; i < 4; i++) {
+						str += parseInt(Math.random() * 10);
+					}
+					console.log(str);
+					ospan.innerHTML = str;
+				}
+
+				var oInput = document.getElementsByTagName("input");
+				oInput[3].onblur = function() {
+					var number = ospan.innerHTML;
+					if(oInput[3].value != number) {
+						oAlert4.innerHTML = "验证码不正确，请重新输入";
+						ospan.innerHTML = "请再点";
+						oInput[3].value = "";
+					} else {
+						oAlert4.innerHTML = " ";
+					}
+				}
+				btn.onclick = function() {
+					var name = oInput[0].value;
+					var mima = oInput[1].value;
+					setCookie(name, mima)
+					console.log("cookie")
+				}
+
+			}
+		</script>
+	</head>
+
+	<body>
+		<!-----------------------------nav---------------------------->
+		<div class="nav">
+			<div class="nav_left">
+				欢迎光临莎莎官网&nbsp;！&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="enroll.html">登录</a>&nbsp;&nbsp;或&nbsp;&nbsp;
+				<a href="#">免费注册</a>
+			</div>
+			<ul class="nav_right">
+				<li class="li1">
+					<a id="BG1"></a><span>我的账户<a id="BG2"></a></span>
+					<ul id="cont1" class="cont">
+						<li><span>我的订单</span></li>
+						<li><span>我的积分</span></li>
+						<li><span>我的优惠卷</span></li>
+						<li><span>我的收藏</span></li>
+						<li><span>我的评价</span></li>
+					</ul>
+				</li>
+				<li class="li2">
+					<a id="BG1"></a><span>我的收藏</span></li>
+				<li class="li3">
+					<a id="BG1"></a><span>我的站内信</span></li>
+				<li><span>积分中心</span></li>
+				<li><span>Global Site</span></li>
+				<li><span>关注我们</span></li>
+			</ul>
+
+		</div>
+		<!----------------------------------banner---------------------------->
+		<div class="banner">
+			<img src="../img/enroll_1/1.jpg" />
+		</div>
+		<!---------------------------------content------------------------->
+		<div class="content">
+			<div class="content_left">
+				<img src="../img/enroll_1/regist_ad.jpg" />
+			</div>
+
+			<div class="content_right">
+				<p><span class="name">用户注册</span><span class="name2">还没有莎莎账号？&nbsp;&nbsp;<a href="#">立即注册</a></span></p>
+				<input type="text" name="" id="text" placeholder="邮箱/手机" /> <br />
+				<div id="alert1"></div>
+				<input type="password" name="" id="pass" placeholder="填写密码" /><br />
+				<div id="alert2"></div>
+				<input type="password" name="" id="pass" placeholder="再次填写密码" /><br />
+				<div id="alert3"></div>
+				<input type="text" name="" id="text2" placeholder="填写验证码" /> <span id="VCode">请点击</span><br />
+				<div id="alert4"></div>
+				<input type="checkbox" name="check" id="check" value="" /> 同意&nbsp;&nbsp;莎莎使用条款&nbsp;和&nbsp;隐私保护政策
+				<div id="btn">注册</div>
+
+			</div>
+
+		</div>
+
+		<!-------------------------bottom---------------------------------->
+		<div class="bottom">
+
+		</div>
+
+	</body>
+
+</html>

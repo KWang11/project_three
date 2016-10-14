@@ -1,0 +1,312 @@
+.bigbox{
+			  	  width: 1308px;			  	  
+			  }
+			  .bigbox_left{
+			  	float: left;
+			  	   width: 330px;
+			  	  
+			  	   /*background: yellow;*/
+			  }
+			 .bigbox_left .title{
+			 	 width: 330px;
+			 	 height: 46px;
+			 	 line-height: 46px;
+			 	 /*background: white;*/
+			 	 border-left:4px solid #c79b62 ;
+			 	 
+			 }
+			 .bigbox_left ul li .title a{
+			 	padding-left: 30px;
+			 }
+			 .bigbox_left ul li .li_title{
+			 	 width: 300px;
+			 	 height: 46px;
+			 	 line-height: 46px;
+			 	 /*background: #e7e7e7;*/
+			 	 border-bottom:1px dotted white ;
+			 	 padding-left: 20px;
+			 	 /*border: 1px solid red;*/
+			 }
+			 .li_title .top{
+			 	 width: 15px;
+			 	 height: 46px;
+			 	 background: url(../img/goodlist/sanjiao.jpg) no-repeat right center);
+			 	 padding-right: 20px;
+			 }
+			 .bigbox_left ul li .li_cont p{
+			 	 height: 28px;
+			 	 line-height: 28px;
+			 	 padding-left: 35px;
+			 	 border-bottom: 1px dotted white;
+			 	 font-size: 14px;
+			 }
+			  
+			
+			   .bigbox_right{
+			   	   float: left;
+			  	   width: 928px;
+			  	   overflow: hidden;
+			  	   /*background: #ccc;*/
+			  	   margin-left: 20px;
+			  	   /*border: 1px solid red;*/
+			  }
+			  
+			  
+			  .bigbox_right .top{
+			  	  overflow: hidden;
+			  	  height: 36px;
+			  	  line-height: 36px;
+			  }
+			  .bigbox_right .top .top_l{
+			  	 float: left;
+			  	 /*background: red;*/
+			  	 width: 100px;
+			  	 height: 36px;
+			  	 text-align: center;
+			  }
+			    .bigbox_right .top .top_r{
+			  	 float: right;
+			  	 /*background: red;*/
+			  	 width: 100px;
+			  	 height: 36px;
+			  	 text-align: center;
+			  }
+			  /*-------------------------样式设置-top--------------------------*/
+			  .bigbox_right .classify{
+			       float: left;
+			  	   width: 150px;
+			  	   height: 130px;
+			  	   /*background: cadetblue;*/
+			  	   position: relative;
+			  }
+			  .bigbox_right .classify span{
+			  	   position:absolute ;
+			  	   left: 30px;
+			  	   top: 30px;
+			  	   font-size:18px ;
+			  	   
+			  }
+			  .bigbox_right .product{
+			       float: left;
+			  	   width: 500px;
+			  	   
+			  	   /*background: greenyellow;*/
+			  }
+			  .bigbox_right .product li{
+			  	 float: left;
+			  	 width: 150px;
+			  	 height: 32px;
+			  	 line-height: 32px;
+			  	 text-align: center;
+			  }
+			  .bigbox_right .other{
+			       float: right;
+			  	   width: 250px;
+			  	   height: 130px;
+			  	   /*background: red;*/
+			  }
+			    /*-------------------------样式设置-bottom--------------------------*/
+			  
+			   /*-------------------------样式设置-top_2--------------------------*/
+			 
+			  .bigbox_right .product_2{
+			  	  overflow: hidden;
+			       float: left;
+			  	   width: 500px;
+			  	   
+			  	   /*background: greenyellow;*/
+			  }
+			  .bigbox_right .product_2 li{
+			  	 float: left;
+			  	 width: 150px;
+			  	 height: 32px;
+			  	 line-height: 32px;
+			  	 text-align: center;
+			  }
+			  .bigbox_right .other_2{
+			       float: right;
+			  	   width: 250px;
+			  	   height: 130px;
+			  	   /*background: red;*/
+			  }
+			    /*-------------------------样式设置-bottom_2--------------------------*/
+			   
+			     /*-------------------------样式设置-top_3--------------------------*/
+			 
+			  .bigbox_right .product_3{
+			  	overflow: hidden;
+			       float: left;
+			  	   width: 500px;
+			  	   
+			  	   /*background: greenyellow;*/
+			  }
+			  .bigbox_right .product_3 li{
+			  	 float: left;
+			  	 width: 150px;
+			  	 height: 32px;
+			  	 line-height: 32px;
+			  	 text-align: center;
+			  }
+			  .bigbox_right .other_3{
+			       float: right;
+			  	   width: 250px;
+			  	   height: 130px;
+			  	   /*background: red;*/
+			  }
+			    /*-------------------------样式设置-bottom_3--------------------------*/
+			  
+			  .bigbox_right ul>li{
+			  	  /*border: 1px solid black;*/
+			  }
+			  .bigbox_right .nav_goodlist{
+			  	  margin-top: 10px;
+			  	  overflow: hidden;
+			  }
+			  
+			   .bigbox_right .nav_goodlist li{
+			   	   float: left;
+			   	   width: 110px;
+			   	   height: 24px;
+			   	   line-height: 24px;
+			   	   text-align: center;
+			   	   border: none;
+			   	  
+			   }
+			   /*-----------------------------------*/
+			  /*----------------------------------goodlist_JZ-----------------------------------*/
+			.goodlist_JZ{
+				 width: 928px;
+				
+			     /*border: 1px solid red;*/
+			 
+				
+			}
+			.ul_JZ{
+				overflow: hidden;
+				margin-left: 10px;
+			}
+			.float_JZ{     /*---li--*/
+				float: left;
+				width: 290px;
+				/*border: 1px solid red;*/
+				margin: 5px;
+			}
+			.pic_Top_JZ{
+			    width: 290px;
+			}
+			.pic_Top_JZ img{
+				width: 290px; 
+			}
+			.pic_NA_JZ{
+			    width: 290px; 	
+			 }
+			 .pic_NA_JZ img{
+				width: 290px; 
+			}
+			 
+		  /*------------button的类名----------------*/
+			 .div_right_JZ{				
+				height: 40px;
+			    margin-top: 55px;
+				text-align: center;					
+			}
+			.button_LO_JZ{
+				width: 84px;
+				height: 32px;
+				color: white;
+				/*background: #ea3a78;*/
+				font-size: 20px;
+			}
+			.h4_pre{
+				  height: 38px;
+				  /*border: 1px solid red;*/
+				  line-height: 38px;
+			}
+			.h4_pre .price_pre{
+				  float: left;
+				  color: #ec3e7d;
+				  padding-left: 20px;
+				  font-size: 24px;
+			}
+			.h4_pre .price_dis{
+				 padding-left: 10px;
+				  float: left;
+				  color: #666;
+				  font-size: 16px;
+				  text-decoration: line-through;
+			}
+			.h4_pre .discound_Z{
+				 padding-right: 15px;
+				  float: right;
+				  color: #008000;
+			}
+			
+			/*--------------------------baner00000----------------------*/
+			  /**************banner_LB*****************/
+			.banner_LB{
+				width: 1308px;
+				height: 420px;
+				background: white;
+				position: relative;
+			}
+     /*---------------------------------------左侧样式-------------------------------*/
+      	.banner_LB_left {        /*------------------------ul-------------------------*/
+				width: 170px;
+				height: 400px;          			
+				 position: absolute;
+				 /*background: #ccc;*/
+				 top: 0px;
+				 left: 108px;
+				 z-index: 4;			
+			}
+			
+			 .banner_LB_left li{
+			 	   display: block;
+			 	  width: 170px;
+			 	  height: 40px;
+			 	  line-height: 40px;
+			 	  /*background: #ec3e7d;*/
+			 	  border-bottom:1px dotted white ;
+			 	  text-align: center;			 	   	
+			 }	
+			 .banner_LB_left li a{ 			 				 			 	
+			 	  font-size:16px;
+			 	  color: yellow;		 	 
+			 }			
+			   .banner_LB_left li:hover{      /*------------------------伪类选择器，只能改变，同级属性的样式，无法改变子集的样式------------------------*/
+			   	    background: white;			/*-------------------由于字体，小图标，背景色的改变，都是li的子集，无法用伪类全部实现，则用jQ---------*/	    				    		   	   
+			   }  
+			   .banner_LB_left li a:hover{    /*--------------------一个空格都不能多--------------------*/
+			    	 color: black;
+			    	 
+			    }			    
+			    /*--------------------------------------------*/
+			   .all_list li {
+			   	   position: relative;
+			   }
+			   .all_list li .a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8{
+			   	position: absolute;
+			   	      width: 300px;
+			   	      height: 300px;
+			   	   
+			   	      top: 0px;
+			   	      left: 170px;
+			   	      display:none;
+			   	      /*border: 1px solid #ec3e7d;*/
+			   }
+			   
+			    		   
+			   /*------------------插入小图标-------------------*/
+			  .all_list #Li1{
+				  	width:18px ;
+				  	height: 18px;
+			  	   background: url(../img/index/in_1.jpg) no-repeat left center;
+			  	   padding-left: 30px;
+			  }
+			  
+			   .all_list #Ri1{
+				  	width:18px ;
+				  	height: 18px;
+			  	   background: url(../img/index/in_0.jpg) no-repeat left center;
+			  	    padding-right: 40px;
+			  }
