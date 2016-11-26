@@ -1,0 +1,178 @@
+  *{
+			  	margin: 0;
+			  	padding: 0;			  
+			  }
+			  ul li{
+			  	list-style: none;
+			  }
+			  body,html{
+			  	  font: 12px "微软雅黑";
+			  }
+			  /*--------------------nav------------------*/
+			  .nav{
+			  	margin: 0 auto;
+			  	 width: 1308px;
+			  	 height: 32px;
+			  	 background: #f2f2f2;
+			  }
+			 .nav_left{
+			 	  float: left;
+			 	  height: 32px;
+			 	  line-height: 32px;
+			 	  padding-left: 110px;
+			 }
+			 .nav_right{
+			 	float: right;
+			 }
+			  .nav_right li{
+			  	float: left;
+			  	position: relative;
+			  	height: 32px;
+			  	line-height: 32px;
+			  	padding:0 15px;
+			  	/*border: 1px solid #CCCCCC;*/
+			  }
+			  
+			  .nav_left a{
+			       color: #ec3e7d;
+			  }
+			  .nav_right{
+			   	    padding-right: 125px;
+			   }
+			   /*********************插入小背景图标**********************/		
+			  .nav_right .li1 #BG1{
+			  	  background: url(../img/enroll_1/2.jpg) no-repeat left center;
+			  	   padding-left: 20px;
+			  }
+			  .nav_right .li1 #BG2{
+			  	  background: url(../img/enroll_1/12.jpg) no-repeat right center;
+			  	  padding-left: 10px;			  	  
+			  } 
+			  .nav_right .li2 #BG1{
+			  	  background: url(../img/enroll_1/3.jpg) no-repeat left center;
+			  	  padding-left: 20px;
+			  }
+			  .nav_right .li3 #BG1{
+			  	  background: url(../img/enroll_1/4.jpg) no-repeat left center;
+			  	  padding-left: 20px;
+			  }
+			   
+			  /***********下拉菜单列表***************/
+			   .nav_right .li1 .cont{
+			  	     display: none;
+			  }
+			   .nav_right .cont{
+			   	    width: 108px;
+			   	    height: 130px;
+			   	    position: absolute;
+			   	    top: 32px;
+			   	    right: 0;
+			   	    background:#fff;
+			   	    
+			   }
+			   .nav_right .cont li{
+			   	      width: 90px;
+			   	      height: 26px;
+			   	      line-height: 26px;			   	      
+			   	      border: none;
+			   	      text-align: center;
+			   }
+			   /*---------------banner-----------------*/
+			  .banner{
+			  	margin:0 auto;
+			  	width: 1199px;
+			  	height:116px;
+			 
+			  	padding-left: 109px;
+			  	padding-top: 22px;
+			  }
+			  
+			  /*----------------------content------------------------*/
+			 .content{
+			 	width: 1308px;
+			 	height:486px ;
+			 	/*background: yellow;*/
+			 }
+			 
+			 .content_left{
+			 	float: left;
+			 	  width: 604px;
+			 	  height: 403px;
+			 	  padding-left: 106px;
+			 	  padding-top: 83px;
+			 }
+			  .content_right{
+			  	float: left;
+			  	   width: 474px;
+			 	  height: 456px;
+			 	  padding-right: 74px;
+			 	  padding-left: 50px;
+			 	  padding-top: 30px;
+			 	  /*background: red;*/		 	  
+			  }
+			  .content_right p{
+			  	   width: 350px;
+			  	   height: 32px;
+			  	   line-height: 32px;
+			  	   /*border: 1px solid red;*/
+			  	   margin-bottom:30px ;
+			  }
+			 .content_right .name{
+			 	  float: left;
+			 	  font-size: 28px;
+			 	 
+			 }
+			  .content_right .name2{
+			 	  float: right;
+			 	  font-size: 14px;
+			 	 
+			 }
+			  .content_right .name2 a{
+			  	 text-decoration: none;
+			  	 color: #EE3E7E;
+			  }
+			  /*-----------------------bottom--------------------------*/
+			 .bottom{
+			 	    margin: 0 auto;
+			 	    width: 1308px;
+			 	    height: 78px;
+			 	    /*background: #00CCCC;*/
+			 	    
+			 }
+			 .content_right .name{
+			 	  font-size: 18px;
+			 	  margin-bottom:30px ;
+			 }
+			 #text{
+			 	 width: 350px;
+			 	 height: 30px;
+			 	 margin-bottom:30px ;
+			 }
+			  #pass{
+			 	 width: 350px;
+			 	 height: 30px;
+			 	 margin-bottom:30px ;
+			 }
+			 #remember_N{
+			 	 font-size:14px ;
+			 	 color: black;
+			 }
+			 #remember_N a{
+			 	 color: #ee3e7e;
+			 	 text-decoration: none;
+			 }
+			 #btn{
+			 	  width: 250px;
+			 	  height: 40px;
+			 	  line-height: 40px;
+			 	  text-align: center;
+			 	  color: white;
+			 	  font-size: 14px;
+			 	  background: #EE3E7E;
+			 	  margin-left: 50px;
+			 	  margin-top:40px ;	
+			 	  margin-bottom: 30px;		 	  
+			 }
+			 .sa_p{
+			 	
+			 }

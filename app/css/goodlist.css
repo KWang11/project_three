@@ -1,0 +1,510 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.bigbox{
+			  	  width: 1308px;	
+			  	  margin-top: 30px;	
+			  	  overflow: hidden;	  	  
+			  }
+			  .bigbox_left{
+			  	float: left;
+			  	   width: 330px;
+			  	   background: white;
+			  	   margin-left: 26px;
+			  	   /*background: yellow;*/
+			  }
+			 .bigbox_left .title{
+			 	 width: 330px;
+			 	 height: 46px;
+			 	 line-height: 46px;
+			 	 /*background: white;*/
+			 	 border-left:4px solid #c79b62 ;
+			 	 
+			 }
+			  .bigbox_left .title a{
+			  	display: inline-block;
+			  	  padding-left: 20px;
+			  	  
+			  }
+			 .bigbox_left ul li .title a{
+			 	 display: block;
+			 	padding-left: 30px;
+			 }
+			 .bigbox_left ul li .li_title{
+			 	 width: 300px;
+			 	 height: 46px;
+			 	 line-height: 46px;
+			 	 background: #e7e7e7;
+			 	 border-bottom:1px dotted white ;
+			 	 padding-left: 20px;
+			 	 /*border: 1px solid red;*/
+			 }
+			 .li_title .top{
+			 	 width: 15px;
+			 	 height: 46px;
+			 	 background: url(../img/goodlist/sanjiao.jpg) no-repeat right center);
+			 	 padding-right: 20px;
+			 }
+			 .bigbox_left ul li .li_cont p{
+			 	 height: 28px;
+			 	 line-height: 28px;
+			 	 padding-left: 35px;
+			 	 border-bottom: 1px dotted white;
+			 	 font-size: 14px;
+			 }
+			  
+			
+			   .bigbox_right{
+			   	   float: left;
+			  	   width: 928px;
+			  	   overflow: hidden;
+			  	   background: white;
+			  	   margin-left: 20px;
+			  	   /*border: 1px solid red;*/
+			  }
+			  
+			  
+			  .bigbox_right .top{
+			  	  overflow: hidden;
+			  	  height: 36px;
+			  	  line-height: 36px;
+			  	  border-bottom: 2px solid #e7e7e7;
+			  }
+			  .bigbox_right .top .top_l{
+			  	 float: left;
+			  	 /*background: red;*/
+			  	 width: 100px;
+			  	 height: 36px;
+			  	 text-align: center;
+			  	 text-decoration: none;
+			  }
+			    .bigbox_right .top .top_r{
+			  	 float: right;
+			  	 /*background: red;*/
+			  	 width: 100px;
+			  	 height: 36px;
+			  	 text-align: center;
+			  }
+			  /*-------------------------样式设置-top--------------------------*/
+			  .bigbox_right .classify{
+			       float: left;
+			  	   width: 150px;
+			  	   height: 110px;
+			  	   background:white;
+			  	   position: relative;
+			  }
+			  .bigbox_right .classify span{
+			  	   position:absolute ;
+			  	   left: 30px;
+			  	   top: 30px;
+			  	   font-size:18px ;
+			  	   
+			  }
+			  .bigbox_right .product{
+			       float: left;
+			  	   width: 500px;
+			  	   
+			  	   /*background: greenyellow;*/
+			  }
+			    .bigbox_right .product a{
+			    	text-decoration: none;
+			    }
+			  .bigbox_right .product li{
+			  	 float: left;
+			  	 width: 150px;
+			  	 height: 32px;
+			  	 line-height: 32px;
+			  	 text-align: center;
+			  }
+			  .bigbox_right .other{
+			       float: right;
+			  	   width: 250px;
+			  	   height: 110px;
+			  	   /*background: red;*/
+			  }
+			    /*-------------------------样式设置-bottom--------------------------*/
+			  
+			   /*-------------------------样式设置-top_2--------------------------*/
+			 
+			  .bigbox_right .product_2{
+			  	  overflow: hidden;
+			       float: left;
+			  	   width: 500px;
+			  	   
+			  	   /*background: greenyellow;*/
+			  }
+			    .bigbox_right .product_2 a{
+			    	text-decoration: none;
+			    }
+			  .bigbox_right .product_2 li{
+			  	 float: left;
+			  	 width: 150px;
+			  	 height: 32px;
+			  	 line-height: 32px;
+			  	 text-align: center;
+			  }
+			  .bigbox_right .other_2{
+			       float: right;
+			  	   width: 250px;
+			  	   height: 110px;
+			  	   /*background: red;*/
+			  }
+			    /*-------------------------样式设置-bottom_2--------------------------*/
+			   
+			     /*-------------------------样式设置-top_3--------------------------*/
+			 
+			  .bigbox_right .product_3{
+			  	overflow: hidden;
+			       float: left;
+			  	   width: 500px;
+			  	   
+			  	   /*background: greenyellow;*/
+			  }
+			   .bigbox_right .product_3 a{
+			   	  text-decoration: none;
+			   }
+			  .bigbox_right .product_3 li{
+			  	 float: left;
+			  	 width: 150px;
+			  	 height: 32px;
+			  	 line-height: 32px;
+			  	 text-align: center;
+			  }
+			  .bigbox_right .other_3{
+			       float: right;
+			  	   width: 250px;
+			  	   height: 110px;
+			  	   /*background: red;*/
+			  }
+			    /*-------------------------样式设置-bottom_3--------------------------*/
+			  
+			  #classfy_li{
+			  	  padding-top: 14px;
+			  	  border-bottom: 1px solid #ddd;
+			  }
+			   #classfy_lg{
+			  	 border-bottom: 1px solid #ddd;
+			  	  padding-top: 14px;
+			  }
+			   #classfy_ln{
+			  	  padding-top: 14px;
+			  }
+			  .bigbox_right .nav_goodlist{
+			  	  border-top: 8px solid #eee;
+			  	  overflow: hidden;
+			  }
+			  .bigbox_right .nav_goodlist{
+			  	  border-bottom: 8px solid #eee;
+			  	  overflow: hidden;
+			  }
+			    .bigbox_right .nav_goodlist a{
+			    	text-decoration: none;
+			    }
+			   .bigbox_right .nav_goodlist li{
+			   	   float: left;
+			   	   width: 110px;
+			   	   height: 24px;
+			   	   line-height: 24px;
+			   	   text-align: center;
+			   	   border: none;
+			   	  
+			   }
+			   /*-----------------------------------*/
+			  /*----------------------------------goodlist_JZ-----------------------------------*/
+			.goodlist_JZ{
+				 width: 928px;
+				
+			     /*border: 1px solid red;*/
+			 
+				
+			}
+			.ul_JZ{
+				overflow: hidden;
+				margin-left: 10px;
+			}
+			.float_JZ{     /*---li--*/
+				float: left;
+				width: 280px;
+			   margin:6px ;
+				height: 556px;
+				/*border-right: 10px solid #ddd;
+				border-bottom: 10px solid #ddd;*/
+			}
+			.float_JZ a{
+				 display: block;
+			} 
+			.pic_Top_JZ{
+				  /*display: block;*/
+			    width: 280px;
+			}
+			.pic_Top_JZ img{
+				display: block;
+				width: 280px; 
+			}
+			.pic_NA_JZ{
+				display: block;
+			    width: 280px; 	
+			 }
+			 .pic_NA_JZ img{
+			 	display: block;
+				width: 280px; 
+			}
+			 
+		  /*------------button的类名----------------*/
+			 .div_right_JZ{				
+				height: 40px;
+			    margin-top: 15px;
+				text-align: center;
+			
+				background: white;					
+			}
+			.button_LO_JZ{
+				width: 84px;
+				height: 32px;
+				color: white;
+				background: #ea3a78;
+				font-size: 20px;
+			}
+			.cont_NA_JZ{
+				 background-color:white ;
+				 padding-left: 20px;
+			}
+			.h4_pre{
+				  height: 38px;
+				  margin: 0;
+				  border-top: 1px solid #eee;
+				  border-bottom: 1px solid #eee;
+				  line-height: 38px;
+			}
+			.h4_pre .price_pre{
+				  float: left;
+				  color: #ec3e7d;
+				  /*padding-left: 6px;*/
+				  font-size: 18px;
+			}
+			.h4_pre .price_dis{
+				 padding-left: 15px;
+				  float: left;
+				  color: #868687;
+				  font-size: 13px;
+				  text-decoration: line-through;
+			}
+			.h4_pre .discound_Z{
+				 padding-right: 22px;
+				 font-size: 13px;
+				  float: right;
+				  color: #d48e2a;
+			}
+			
+			.aa1_JZ{
+				  font-size: 12px;
+				  padding-top: 18px;
+				  padding-bottom: 8px;
+			}
+			.aa2_JZ{
+				  font-size: 12px;
+				  padding-bottom: 16px;
+			}
+			.aa3_JZ{
+				  font-size: 12px;
+				  padding-bottom: 6px;
+			}
+			.aa4_JZ{
+				  font-size: 12px;
+				
+				  line-height: 20px;
+				  text-indent: 1em;
+			}
+			.aa5_JZ{
+				padding-top: 8px;
+				  font-size: 12px;
+			}
+			
+		
+			/*--------------------------baner00000----------------------*/
+			  /**************banner_LB*****************/
+			.banner_LB{
+				width: 1308px;
+				height: 420px;
+				background: white;
+				position: relative;
+			}
+     /*---------------------------------------左侧样式-------------------------------*/
+      	.banner_LB_left {        /*------------------------ul-------------------------*/
+				width: 170px;
+				height: 400px;          			
+				 position: absolute;
+				 /*background: #ccc;*/
+				 top: 0px;
+				 left: 108px;
+				 z-index: 4;			
+			}
+			
+			 .banner_LB_left li{
+			 	   display: block;
+			 	  width: 170px;
+			 	  height: 40px;
+			 	  line-height: 40px;
+			 	  /*background: #ec3e7d;*/
+			 	  border-bottom:1px dotted white ;
+			 	  text-align: center;			 	   	
+			 }	
+			 .banner_LB_left li a{ 			 				 			 	
+			 	  font-size:16px;
+			 	  color: yellow;		 	 
+			 }			
+			   .banner_LB_left li:hover{      /*------------------------伪类选择器，只能改变，同级属性的样式，无法改变子集的样式------------------------*/
+			   	    background: white;			/*-------------------由于字体，小图标，背景色的改变，都是li的子集，无法用伪类全部实现，则用jQ---------*/	    				    		   	   
+			   }  
+			   .banner_LB_left li a:hover{    /*--------------------一个空格都不能多--------------------*/
+			    	 color: black;
+			    	 
+			    }			    
+			    /*--------------------------------------------*/
+			   .all_list li {
+			   	   position: relative;
+			   }
+			   .all_list li .a1,.a2,.a3,.a4,.a5,.a6,.a7,.a8{
+			   	position: absolute;
+			   	      width: 300px;
+			   	      height: 300px;
+			   	   
+			   	      top: 0px;
+			   	      left: 170px;
+			   	      display:none;
+			   	      /*border: 1px solid #ec3e7d;*/
+			   }
+			   
+			    		   
+			   /*------------------插入小图标-------------------*/
+			  .all_list #Li1{
+				  	width:18px ;
+				  	height: 18px;
+			  	   background: url(../img/index/in_1.jpg) no-repeat left center;
+			  	   padding-left: 30px;
+			  }
+			  
+			   .all_list #Ri1{
+				  	width:18px ;
+				  	 height: 18px;
+			  	    background: url(../img/index/in_0.jpg) no-repeat left center;
+			  	     padding-right: 40px;
+			  }
+			  
+
+        /*分页*/
+       .goodlist_page{
+       	       width:100%;
+       	       height: 100px;
+       	       position: relative;
+       }
+          .goodlist_page ul{
+          	    position: absolute;
+          	    right: 60px;
+          	    top: 70px;
+          }
+          
+         .goodlist_page ul li{
+         	     float: left;
+         	     width: 26px;
+         	     height: 26px;
+         	     line-height: 26px;
+         	     border-radius: 50%;
+         	     margin: 0 5px;
+         	     font-size: 16px;
+         	     border: 1px solid #ccc;
+         	     text-align: center;
+         }   
+
+         .goodlist_page ul li:hover{
+         	     color: #ec3e7d;
+         	     border-color: #ec3e7d;
+         }
+
+
+/*列表页*/
+   * {
+				margin: 0;
+				padding: 0;
+				border: none;
+			}
+			
+			a {
+				text-decoration: none;
+				color: black;
+			}
+			
+			ul li {
+				list-style: none;
+			}
+			
+			body {
+				background: #f1f1f1;
+			}
+			/*-------------------------------------nav_shop_box------------------------*/
+			
+			#shop_box {
+				display: none;
+				position: absolute;
+				top: 32px;
+				right: 0;
+				width: 250px;
+				/*height: 600px;*/
+				/*border: 1px solid red;*/
+			}
+			
+			#shop_box .float_JZ {
+				/*------------li----------*/
+				width: 214px;
+				height: 250px;
+				/*border: 1px solid green;*/
+				position: relative;
+			}
+			
+			#shop_box .float_JZ .pic_NA_JZ img {
+				width: 205px;
+				height: 120px;
+				/*border: 1px dotted #ccc;*/
+			}
+			
+			#shop_box .float_JZ .h4_pre {
+				/*border: 1px solid red;*/
+				height: 30px;
+			}
+			
+			#shop_box .float_JZ .price_pre {
+				color: #EE3E7E;
+				font-size: 12px;
+			}
+			
+			#shop_box .float_JZ .aa2_JZ {
+				color: black;
+				font-size: 14px;
+				height: 30px;
+				/*border: 1px solid red;*/
+			}
+			
+			#shop_box .btn-close {
+				position: absolute;
+				top: 0;
+				right: 0;
+				padding: 5px;
+				width: 20px;
+				height: 20px;
+			}
+			
+			#shop_box .btn-close:hover {
+				background-color: #f00;
+				color: #fff;
+			}
+			
+			.bigbox_left .li_cont {
+				display: none;
+			}
+
+

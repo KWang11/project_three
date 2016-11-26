@@ -1,0 +1,289 @@
+  *{
+			  	margin: 0 auto;
+			  	padding: 0;		
+			  	border: none;	  
+			  }
+			  ul li{
+			  	list-style: none;
+			  }
+  .detail{
+			  	 width: 1308px;
+			  	
+			  	 /*background: #ccc;*/
+			  }
+			  .detail h3{
+			  	  width: 1100px;
+			  	  height: 60px;
+			  	  line-height: 60px;
+			  	  /*background: #bf9b5e;*/
+			  	  font-size: 18px;
+			  }
+			  .detail h3 .top_l{
+			  	  float: left;
+			  	  padding-left: 30px;
+			  } .detail h3 .top_r{
+			  	  float: right;
+			  	  padding-right: 30px;
+			  }
+			  .detail h3 .top_r span{
+			  	  font-size: 24px;
+			  }
+			  .detail .shopping_cart{
+			  	  width:1100px ;
+			  	  height: 600px;
+			  	  /*background: #00CCCC;*/
+			  	  overflow: hidden;
+			  }
+			   .detail .shopping_cart .detail_left{
+			   	   float: left;
+			   	   width: 580px;
+			   	   height: 600px;
+			   	   /*background: greenyellow;*/
+			   }
+			     .detail .shopping_cart .detail_left .img img{
+			     	 display: block;
+			     }
+			   
+			   #carousel{
+			   	    width: 580px;
+			   	    height: 300px;
+			   	    background-color: white;
+			   	    /*border: 1px solid red;*/
+			   }
+			   
+			 #focus {	       
+		        width: 345px;
+		        height: 300px;
+		        /*background: yellow;*/
+		        /*border: 1px solid black;*/
+		        position: relative;
+		      
+		    }
+		    
+		    #focus #bigpic .fdj_xiaoguo{
+		    	     margin-left: 120px;
+		        
+		        
+		    }
+		       #bigpic li{
+		       	   width: 345px;
+		       	   height: 300px;  
+		       	 position: absolute;
+		       	 left: 0;
+		       	 top: 0;
+		       }
+		      
+		     #bigpic img{
+		      	   width: 345px;
+		       	   height: 300px;  
+		       }
+		       #smallpic{
+		       	   background: white;
+		       	   display: block;
+		       	   padding-bottom: 30px;
+		       }
+		        #smallpic img{
+		        	  display: block;
+		        }
+		        #clone_pic{
+		        	 display: block;
+		        }
+		      .detail .shopping_cart #smallpic li{
+		      	 display: inline-block;
+		      	 /*border: 1px solid red;*/
+		      }
+		      .detail .shopping_cart #smallpic img{
+		      	width: 120px;
+		      }
+			    .detail .shopping_cart .detail_right{
+			   	   float: left;
+			   	   width: 520px;
+			   	   height: 600px;
+			   	   background: white;
+			   }
+			   .detail .shopping_cart .detail_right .a1{
+			   	  
+			   	    padding-top: 20px;
+			   	    font-size: 18px;
+			   	    color: black;		   	    
+			   }
+			   .detail .shopping_cart .detail_right .a2{
+			   	   
+			   	    padding-top: 30px;
+			   	    font-size: 16px;	
+			   	    color: #666;	   	    
+			   }
+			    .detail .shopping_cart .detail_right .a3{
+			   	    line-height: 30px;
+			   	    padding-top: 24px;
+			   	    font-size: 12px;	
+			   	    color: #aaa;	   	    
+			   }.detail .shopping_cart .detail_right .a4{
+			   	   
+			   	    padding-top: 28px;
+			   	    font-size: 12px;	
+			   	    color: #666;	   	    
+			   }
+			   .detail .shopping_cart .detail_right .a4 .Sale_price{
+			   	  	font-size: 32px;
+			   	    color: #EE3E7E;	   	    
+			   }
+			   .detail .shopping_cart .detail_right .a4 .Market_value{
+			   	  	text-decoration: line-through;
+			   	    color: #cd996a;    
+			   }
+			   
+			   .detail .shopping_cart .detail_right .a5{				
+				height: 40px;
+			    margin-top: 30px;
+			  
+								
+			}.detail .shopping_cart .detail_right .a5 button{
+				width: 110px;
+				height: 32px;
+				color: white;
+				background: #EE3E7E;			
+				font-size: 20px;
+			
+			}
+		     .detail .shopping_cart .detail_right .pic{
+		     	 padding-top: 100px;
+		     	
+		     }
+		      .detail .shopping_cart .detail_right .pic img{
+		      	   width: 520px;
+		     	   height: 130px;
+		      }
+		      
+            #btn_left{
+            	   width: 12px;
+            	   height: 16px;
+            	   border: none;
+            	   background: #eee;
+            }
+            #btn_right{
+            	    width: 12px;
+            	   height: 16px;
+            	   border: none;
+            	   background: #eee;
+            }
+            #value_sl{
+            	 color: black;
+            	 font-size: 14px;
+            }
+
+
+.detail_right .a1 {
+				font-size: 120px;
+				padding-top: 32px;
+				color: black;
+			}
+			
+			.detail_bottom {
+				width: 1100px;
+				/*border: 1px solid red;*/
+				overflow: hidden;
+				margin-left: 110px;
+				margin-top: 20px;
+			}
+			
+			.detail_bottom_left {
+				float: left;
+				width: 254px;
+				/*background: yellow;*/
+			}
+			
+			.detail_bottom_left p {
+				height: 50px;
+				line-height: 50px;
+				border-left: 4px solid #117E41;
+				font-size: 18px;
+				padding-left: 24px;
+				background: white;
+				border-bottom: 1px solid #eee;
+			}
+			
+			.top_detail_bottom_left {
+				margin-bottom: 20px;
+			}
+			
+			.detail_bottom_right {
+				float: left;
+				width: 830px;
+				margin-left: 16px;
+				background: #ccc;
+			}
+			
+			.detail_bottom_right ul {
+				overflow: hidden;
+				width: 830px;
+				margin-bottom: 20px;
+			}
+			
+			.detail_bottom_right ul li {
+				float: left;
+				width: 160px;
+				height: 40px;
+				line-height: 40px;
+				font-size: 18px;
+				text-align: center;
+			}
+			
+			.detail_bottom_right .ase {
+				width: 828px;
+				display: block;
+			}
+			/*----加入购物车-----*/
+			
+			.shop_box_car li {
+				display: block;
+				width: 250px;
+				position: relative;
+			}
+			
+			.shop_box_car .aa1_clone {
+				width: 250px;
+				height: 150px;
+			}
+			
+			.shop_box_car .aa1_clone img {
+				width: 250px;
+				height: 150px;
+				display: block;
+			}
+			
+			.shop_box_car .aa2_clone {
+				height: 32px;
+				font-size: 16px;
+			}
+			
+			.shop_box_car .clone_price {
+				color: #EE3E7E;
+				height: 32px;
+				font-size: 16px;
+			}
+			
+			.shop_box_car .btn_za {
+				line-height: 24px;
+				height: 40px;
+				background: #EE3E7E;
+				text-align: center;
+			}
+			
+			.shop_box_car .btn_za button {
+				font: 24px;
+			}
+			
+			#shop_box .btn-close {
+				position: absolute;
+				top: 0;
+				right: 0;
+				padding: 5px;
+				width: 20px;
+				height: 20px;
+			}
+			
+			#shop_box .btn-close:hover {
+				background-color: #f00;
+				color: #fff;
+			}
